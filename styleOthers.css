@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fw-bold {
+    margin: 40px 60px 15px;
+}
+
+.section {
+    margin: 25px 60px;
+}
+
+.section.h3 {
+    margin: 0px 15px;
+}
+
+.btn {
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.resultSection {
+    padding: 10px 60px;
+}
+
+.GradeShow {
+    padding: 10px 900px 10px 60px;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: rgb(173, 169, 169);
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}
